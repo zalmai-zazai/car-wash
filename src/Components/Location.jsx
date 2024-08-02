@@ -1,4 +1,5 @@
 import React from 'react';
+import fuel from '../img/fuel.png';
 
 const Location = () => {
   return (
@@ -8,15 +9,27 @@ const Location = () => {
           <div className="col-lg-7">
             <div className="section-header text-left">
               <p>Washing Points</p>
-              <h2>Car Washing & Care Points</h2>
+              <h2>Sudsy Washing & Fueling Points</h2>
             </div>
             <div className="row">
               <div className="col-md-6">
                 <div className="location-item">
                   <i className="fa fa-map-marker-alt"></i>
                   <div className="location-text">
-                    <h3>Car Washing Point</h3>
-                    <p>123 Street, New York, USA</p>
+                    <h3>Kent, WA</h3>
+                    <p>209 Central Ave S, Kent, WA 98032</p>
+                    <p>
+                      <strong>Call:</strong>+1253-520-4110
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="location-item">
+                  <i className="fa fa-map-marker-alt"></i>
+                  <div className="location-text">
+                    <h3>Seattle, WA</h3>
+                    <p>James Street, Seattle, WA</p>
                     <p>
                       <strong>Call:</strong>+012 345 6789
                     </p>
@@ -27,8 +40,8 @@ const Location = () => {
                 <div className="location-item">
                   <i className="fa fa-map-marker-alt"></i>
                   <div className="location-text">
-                    <h3>Car Washing Point</h3>
-                    <p>123 Street, New York, USA</p>
+                    <h3>Tacoma, WA</h3>
+                    <p>5th Street, Tacoma, WA</p>
                     <p>
                       <strong>Call:</strong>+012 345 6789
                     </p>
@@ -39,20 +52,8 @@ const Location = () => {
                 <div className="location-item">
                   <i className="fa fa-map-marker-alt"></i>
                   <div className="location-text">
-                    <h3>Car Washing Point</h3>
-                    <p>123 Street, New York, USA</p>
-                    <p>
-                      <strong>Call:</strong>+012 345 6789
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="location-item">
-                  <i className="fa fa-map-marker-alt"></i>
-                  <div className="location-text">
-                    <h3>Car Washing Point</h3>
-                    <p>123 Street, New York, USA</p>
+                    <h3>Belluve, WA</h3>
+                    <p>5th Ave 3rd Street, Belluve, WA</p>
                     <p>
                       <strong>Call:</strong>+012 345 6789
                     </p>
@@ -62,39 +63,8 @@ const Location = () => {
             </div>
           </div>
           <div className="col-lg-5">
-            <div className="location-form">
-              <h3>Request for a car wash</h3>
-              <form>
-                <div className="control-group">
-                  <input
-                    type="text"
-                    className="form-control"
-                    placeholder="Name"
-                    required="required"
-                  />
-                </div>
-                <div className="control-group">
-                  <input
-                    type="email"
-                    className="form-control"
-                    placeholder="Email"
-                    required="required"
-                  />
-                </div>
-                <div className="control-group">
-                  <textarea
-                    className="form-control"
-                    placeholder="Description"
-                    required="required"
-                  ></textarea>
-                </div>
-                <div>
-                  <button className="btn btn-custom" type="submit">
-                    Send Request
-                  </button>
-                </div>
-              </form>
-            </div>
+            <h4>Save 30¢/gallon with Every Wash</h4>
+            <img src={fuel} alt="" style={{ width: '400px' }} />
           </div>
         </div>
       </div>

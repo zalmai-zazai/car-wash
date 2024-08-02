@@ -5,12 +5,11 @@ const Banner = () => {
     <div className="banner">
       <img src={backgroundImg} alt="" />
       <div className="banner-text">
-        <h3>Washing &amp; Detailing</h3>
-        <h1>Quality service for you</h1>
+        <h3>Mr. Sudsy Car Washing &amp; Fueling</h3>
+        <h1>Get a Car Wash and Save 30¢/Gallon Instantly!</h1>
 
         <p>
-          Morbi sagittis turpis id suscipit feugiat. Suspendisse eu augue urna.
-          Morbi sagittis orci sodales
+          With Mr. Sudsy Save at the pump and get your car looking it's best!
         </p>
         <a className="btn btn-custom" href="">
           Explore More

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Nav } from 'react-bootstrap';
 
 const Footer = () => {
   return (
@@ -9,14 +10,14 @@ const Footer = () => {
             <div className="footer-contact">
               <h2>Get In Touch</h2>
               <p>
-                <i className="fa fa-map-marker-alt"></i>123 Street, New York,
-                USA
+                <i className="fa fa-map-marker-alt"></i>209 Central Ave S, Kent,
+                WA, USA, 98032
               </p>
               <p>
-                <i className="fa fa-phone-alt"></i>+012 345 67890
+                <i className="fa fa-phone-alt"></i>+153 520 4110
               </p>
               <p>
-                <i className="fa fa-envelope"></i>info@example.com
+                <i className="fa fa-envelope"></i>SudsyCarWash@gmail.com
               </p>
               <div className="footer-social">
                 <a className="btn" href="">
@@ -40,17 +41,17 @@ const Footer = () => {
           <div className="col-lg-3 col-md-6">
             <div className="footer-link">
               <h2>Popular Links</h2>
-              <a href="">About Us</a>
-              <a href="">Contact Us</a>
-              <a href="">Our Service</a>
-              <a href="">Service Points</a>
-              <a href="">Pricing Plan</a>
+              <Nav.Link href="#about">About Us</Nav.Link>
+              <Nav.Link href="#contact">Contact Us</Nav.Link>
+              <Nav.Link href="#service">Our Service</Nav.Link>
+              <Nav.Link href="#location">Service Points</Nav.Link>
+              <Nav.Link href="#price">Pricing Plan</Nav.Link>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
             <div className="footer-link">
               <h2>Useful Links</h2>
-              <a href="">Terms of use</a>
+
               <a href="">Privacy policy</a>
               <a href="">Cookies</a>
               <a href="">Help</a>
@@ -71,8 +72,7 @@ const Footer = () => {
       </div>
       <div className="container copyright">
         <p>
-          &copy; <a href="#">Your Site Name</a>, All Right Reserved. Designed By{' '}
-          <a href="https://htmlcodex.com">HTML Codex</a>
+          &copy; <a href="#">MrSudsyCarWash.com</a>, All Right Reserved.
         </p>
       </div>
     </div>

@@ -12,29 +12,35 @@ const Price = () => {
           <div className="col-md-4">
             <div className="price-item">
               <div className="price-header">
-                <h3>Basic Cleaning</h3>
+                <h3>Just a Wash</h3>
                 <h2>
                   <span>$</span>
-                  <strong>25</strong>
-                  <span>.99</span>
+                  <strong>10</strong>
+                  <span></span>
                 </h2>
               </div>
               <div className="price-body">
                 <ul>
                   <li>
-                    <i className="far fa-check-circle"></i>Seats Washing
+                    <i className="far fa-check-circle"></i>Soft Touch Car Wash
                   </li>
                   <li>
-                    <i className="far fa-check-circle"></i>Vacuum Cleaning
+                    <i className="far fa-check-circle"></i>Blow Dry
                   </li>
                   <li>
-                    <i className="far fa-check-circle"></i>Exterior Cleaning
+                    <i className="far "></i>
                   </li>
                   <li>
-                    <i className="far fa-times-circle"></i>Interior Wet Cleaning
+                    <i className="far "></i>
                   </li>
                   <li>
-                    <i className="far fa-times-circle"></i>Window Wiping
+                    <i className="far "></i>
+                  </li>
+                  <li>
+                    <i className="far "></i>
+                  </li>
+                  <li>
+                    <i className="far "></i>
                   </li>
                 </ul>
               </div>
@@ -48,29 +54,39 @@ const Price = () => {
           <div className="col-md-4">
             <div className="price-item featured-item">
               <div className="price-header">
-                <h3>Premium Cleaning</h3>
+                <h3>Deluxe Wash</h3>
                 <h2>
                   <span>$</span>
-                  <strong>35</strong>
-                  <span>.99</span>
+                  <strong>13</strong>
+                  <span></span>
                 </h2>
               </div>
               <div className="price-body">
                 <ul>
                   <li>
-                    <i className="far fa-check-circle"></i>Seats Washing
+                    <i className="far fa-check-circle"></i>Special Wheel Clean
                   </li>
                   <li>
-                    <i className="far fa-check-circle"></i>Vacuum Cleaning
+                    <i className="far fa-check-circle"></i>Soft Touch Car Wash
                   </li>
                   <li>
-                    <i className="far fa-check-circle"></i>Exterior Cleaning
+                    <i className="far fa-check-circle"></i>Wheel/Rocker Panel
+                    Blaster
                   </li>
                   <li>
-                    <i className="far fa-check-circle"></i>Interior Wet Cleaning
+                    <i className="far fa-check-circle"></i>Turtle Wax® Sealer
+                    Wax
+                  </li>
+
+                  <li>
+                    {/* <i className="far fa-times-circle"></i>Blow Dry Plus */}
+                    <i className="far fa-check-circle"></i>Blow Dry Plus
                   </li>
                   <li>
-                    <i className="far fa-times-circle"></i>Window Wiping
+                    <i className="far "></i>
+                  </li>
+                  <li>
+                    <i className="far "></i>
                   </li>
                 </ul>
               </div>
@@ -84,29 +100,38 @@ const Price = () => {
           <div className="col-md-4">
             <div className="price-item">
               <div className="price-header">
-                <h3>Complex Cleaning</h3>
+                <h3>Works Wash</h3>
                 <h2>
                   <span>$</span>
-                  <strong>49</strong>
-                  <span>.99</span>
+                  <strong>16</strong>
+                  <span></span>
                 </h2>
               </div>
               <div className="price-body">
                 <ul>
                   <li>
-                    <i className="far fa-check-circle"></i>Seats Washing
+                    <i className="far fa-check-circle"></i>Special Wheel Clean
                   </li>
                   <li>
-                    <i className="far fa-check-circle"></i>Vacuum Cleaning
+                    <i className="far fa-check-circle"></i>Soft Touch Car Wash
                   </li>
                   <li>
-                    <i className="far fa-check-circle"></i>Exterior Cleaning
+                    <i className="far fa-check-circle"></i>Undercarriage Wash
                   </li>
                   <li>
-                    <i className="far fa-check-circle"></i>Interior Wet Cleaning
+                    <i className="far fa-check-circle"></i>Wheel/Rocker Panel
+                    Blaster
                   </li>
                   <li>
-                    <i className="far fa-check-circle"></i>Window Wiping
+                    <i className="far fa-check-circle"></i>Turtle Wax® Triple
+                    Shine
+                  </li>
+                  <li>
+                    <i className="far fa-check-circle"></i>Turtle Wax® Sealer
+                    Wax
+                  </li>
+                  <li>
+                    <i className="far fa-check-circle"></i>Blow Dry Plus
                   </li>
                 </ul>
               </div>

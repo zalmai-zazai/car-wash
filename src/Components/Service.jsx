@@ -6,7 +6,7 @@ const Service = () => {
       <div className="container">
         <div className="section-header text-center">
           <p>What We Do?</p>
-          <h2>Premium Washing Services</h2>
+          <h2>Our Services</h2>
         </div>
         <div className="row">
           <div className="col-lg-3 col-md-6">

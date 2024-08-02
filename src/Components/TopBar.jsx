@@ -35,7 +35,7 @@ const TopBar = () => {
                   </div>
                   <div className="top-bar-text">
                     <h3>Call Us</h3>
-                    <p>+012 345 6789</p>
+                    <p>+1 253 520 4110</p>
                   </div>
                 </div>
               </div>
@@ -46,7 +46,7 @@ const TopBar = () => {
                   </div>
                   <div className="top-bar-text">
                     <h3>Email Us</h3>
-                    <p>info@example.com</p>
+                    <p>sudsyCarwash@gmail.com</p>
                   </div>
                 </div>
               </div>

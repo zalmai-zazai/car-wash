@@ -14,14 +14,16 @@ const About = () => {
           <div className="col-lg-6">
             <div className="section-header text-left">
               <p>About Us</p>
-              <h2>car washing and detailing</h2>
+              <h2>car washing and Fueling Station</h2>
             </div>
             <div className="about-content">
               <p>
-                Lorem ipsum dolor sit amet elit. In vitae turpis. Donec in
-                hendre dui, vel blandit massa. Ut vestibu suscipi cursus. Cras
-                quis porta nulla, ut placerat risus. Aliquam nec magna eget
-                velit luctus dictum
+                Save at the pump and get your car looking it's best! Mr. SUDSY'S
+                CAR WASH is a professional, family-owned wash and fueling
+                station with only one goal, give our customers the
+                highest-quality washes and cleanest cars in Kent, Washington.
+                Our touchless washes, complimentary shine toweles, and friendly
+                staff are just the start.
               </p>
               <ul>
                 <li>
