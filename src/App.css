@@ -6,7 +6,6 @@ html {
   position: fixed;
 }
 .navbar-brand img {
-  filter: brightness(2.5);
   top: 0;
   width: 100px;
   display: flex;
@@ -14,7 +13,7 @@ html {
 }
 .imgLogo {
   margin: -25px 25px;
-  filter: brightness(2.5);
+  width: 90px;
 }
 .banner {
   width: auto;
@@ -43,20 +42,20 @@ html {
 .banner-text h3 {
   color: red;
   font-weight: bold;
-  font-weight: bold;
-  font-size: 3rem;
+
+  font-size: max(4vw, 30px);
   text-align: center;
   text-shadow: 1px 1px 6px #000000;
 }
 .banner-text h1 {
   color: white;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: max(3vw, 20px);
   text-align: center;
 }
 .banner-text p {
   color: white;
-  font-size: 1.2rem;
+  font-size: max(2vw, 12px);
   width: 550px;
   text-align: center;
 }

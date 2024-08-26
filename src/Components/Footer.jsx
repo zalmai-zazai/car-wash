@@ -14,7 +14,7 @@ const Footer = () => {
                 WA, USA, 98032
               </p>
               <p>
-                <i className="fa fa-phone-alt"></i>+153 520 4110
+                <i className="fa fa-phone-alt"></i>+1253 520 4110
               </p>
               <p>
                 <i className="fa fa-envelope"></i>SudsyCarWash@gmail.com

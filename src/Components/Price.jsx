@@ -46,7 +46,7 @@ const Price = () => {
               </div>
               <div className="price-footer">
                 <a className="btn btn-custom" href="">
-                  Book Now
+                  Explore
                 </a>
               </div>
             </div>
@@ -92,7 +92,7 @@ const Price = () => {
               </div>
               <div className="price-footer">
                 <a className="btn btn-custom" href="">
-                  Book Now
+                  Explore
                 </a>
               </div>
             </div>
@@ -137,7 +137,7 @@ const Price = () => {
               </div>
               <div className="price-footer">
                 <a className="btn btn-custom" href="">
-                  Book Now
+                  Explore
                 </a>
               </div>
             </div>
