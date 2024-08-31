@@ -65,6 +65,7 @@ html {
   margin-top: 30px;
   gap: 30px;
   row-gap: 50px;
+  padding: 15px;
 }
 .gallery-item {
   width: 100%;
@@ -75,7 +76,7 @@ html {
   animation: fadeIn 1s;
 }
 .gallery-item-image {
-  width: 100%;
+  max-width: 100%;
   border-radius: 15px 15px 0px 0px;
 }
 @media (max-width: 990px) {

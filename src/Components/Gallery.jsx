@@ -5,7 +5,7 @@ import sudsy3 from '../img/sudsy3.jpg';
 import sudsy4 from '../img/sudsy4.jpg';
 const Gallery = () => {
   return (
-    <div className="container gallery-display-list">
+    <div className="gallery-display-list">
       <div className="gallery-item">
         <img className="gallery-item-image" src={sudsy1} alt="" />
       </div>
