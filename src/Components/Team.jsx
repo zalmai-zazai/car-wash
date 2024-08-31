@@ -19,7 +19,32 @@ const Team = () => {
                 <img src={team1} alt="Team Image" />
               </div>
               <div className="team-text">
-                <h2>Donald John</h2>
+                <h2>Mushtak</h2>
+                <p>SEO</p>
+                <div className="team-social">
+                  <a href="">
+                    <i className="fab fa-twitter"></i>
+                  </a>
+                  <a href="">
+                    <i className="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="">
+                    <i className="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="">
+                    <i className="fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-6">
+            <div className="team-item">
+              <div className="team-img">
+                <img src={team1} alt="Team Image" />
+              </div>
+              <div className="team-text">
+                <h2>Ahmad</h2>
                 <p>Engineer</p>
                 <div className="team-social">
                   <a href="">
@@ -41,35 +66,10 @@ const Team = () => {
           <div className="col-lg-3 col-md-6">
             <div className="team-item">
               <div className="team-img">
-                <img src={team2} alt="Team Image" />
+                <img src={team1} alt="Team Image" />
               </div>
               <div className="team-text">
-                <h2>Adam Phillips</h2>
-                <p>Engineer</p>
-                <div className="team-social">
-                  <a href="">
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                  <a href="">
-                    <i className="fab fa-facebook-f"></i>
-                  </a>
-                  <a href="">
-                    <i className="fab fa-linkedin-in"></i>
-                  </a>
-                  <a href="">
-                    <i className="fab fa-instagram"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-6">
-            <div className="team-item">
-              <div className="team-img">
-                <img src={team3} alt="Team Image" />
-              </div>
-              <div className="team-text">
-                <h2>Thomas Olsen</h2>
+                <h2>Thomas </h2>
                 <p>Worker</p>
                 <div className="team-social">
                   <a href="">
@@ -91,7 +91,7 @@ const Team = () => {
           <div className="col-lg-3 col-md-6">
             <div className="team-item">
               <div className="team-img">
-                <img src={team4} alt="Team Image" />
+                <img src={team1} alt="Team Image" />
               </div>
               <div className="team-text">
                 <h2>James Alien</h2>

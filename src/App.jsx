@@ -13,6 +13,7 @@ import Team from './Components/Team';
 import Footer from './Components/Footer';
 import Contact from './Components/Contact';
 import Banner from './Components/Banner';
+import Gallery from './Components/Gallery';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <NavBar />
       <Banner />
       <About />
+      <Gallery />
       <Service />
       <Facts />
       <Price />

@@ -17,7 +17,7 @@ const Footer = () => {
                 <i className="fa fa-phone-alt"></i>+1253 520 4110
               </p>
               <p>
-                <i className="fa fa-envelope"></i>SudsyCarWash@gmail.com
+                <i className="fa fa-envelope"></i>sudsyCarwash@hotmail.com
               </p>
               <div className="footer-social">
                 <a className="btn" href="">
@@ -72,7 +72,8 @@ const Footer = () => {
       </div>
       <div className="container copyright">
         <p>
-          &copy; <a href="#">MrSudsyCarWash.com</a>, All Right Reserved.
+          &copy; <a href="#">sudsaycarwash.netlify.app.com</a>, All Right
+          Reserved.
         </p>
       </div>
     </div>

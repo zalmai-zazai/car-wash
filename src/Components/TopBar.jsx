@@ -46,7 +46,7 @@ const TopBar = () => {
                   </div>
                   <div className="top-bar-text">
                     <h3>Email Us</h3>
-                    <p>sudsyCarwash@gmail.com</p>
+                    <p>sudsyCarwash@hotmail.com</p>
                   </div>
                 </div>
               </div>
