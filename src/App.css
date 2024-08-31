@@ -68,8 +68,8 @@ html {
   padding: 15px;
 }
 .gallery-item {
-  width: 90%;
-  margin: auto;
+  width: 100%;
+
   border-radius: 15px;
   box-shadow: 0px 0px 10px #00000015;
   transition: 0.3s;
@@ -83,4 +83,10 @@ html {
   .imgLogo {
     display: none;
   }
+
+}
+@media (max-width: 780px) {
+  .gallery-item {
+    width: 85%;
+  
 }
