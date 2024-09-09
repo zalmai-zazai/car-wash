@@ -24,7 +24,7 @@ const Location = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6">
+              {/* <div className="col-md-6">
                 <div className="location-item">
                   <i className="fa fa-map-marker-alt"></i>
                   <div className="location-text">
@@ -59,7 +59,7 @@ const Location = () => {
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-lg-5">
