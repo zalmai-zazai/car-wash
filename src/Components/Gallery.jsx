@@ -8,12 +8,7 @@ const Gallery = () => {
   return (
     <div className="gallery">
       <div className="video-container">
-        <video
-          autoPlay={true}
-          preload="none"
-          src={carWashVideo}
-          controls
-        ></video>
+        <video autoPlay src={carWashVideo} controls></video>
       </div>
       <div className="gallery-display-list row ">
         <div className="gallery-item col-md-6 mb-3">
